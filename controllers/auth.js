@@ -63,7 +63,7 @@ const loginUsuario = async (req, res = response) => {
         // Enviar json de respuesta
         res.json({
             ok: true,
-            msg: 'Login correcto',
+            // msg: 'Login correcto',
             usuario: usuarioDB,
             token
         });
@@ -85,7 +85,7 @@ const renewToken = async (req, res = response) => {
         // Enviar respuesta json
         res.json({
             ok: true,
-            msg: 'Token renovado',
+            // msg: 'Token renovado',
             usuario: usuarioT,
             token
         });
